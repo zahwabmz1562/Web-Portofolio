@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleAbout.css">
+    <title>About Us</title>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo"><img src="Logo1.png" height="120" width="150"></a>
+            <ul>
+                <li><a href="homepage.php">Home</a></li>
+                <li><a href="Uiweb.php">Menu</a></li>
+                <li><a href="#">Chat</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a class="login-button" href="Login.php">Login</a></li>
+            </ul>
+          
+        </header>
+<br>
+        <div class="content">
+            <div class="textBox">
+             <h2>it's not just design <br> it's  <span>R2Z Design</span> </h2>  <br>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam distinctio dolores molestiae. Itaque magnam nemo adipisci assumenda ipsam! Repellendus nulla molestias repellat excepturi expedita, eveniet corporis libero quis eius obcaecati.</p> 
+             <br>
+             <br>
+             <a href="Beranda.php">Learn more</a>
+            </div>
+            <div class="imgBox">
+                <img src="Gambar3.png" alt="gambar" >
+            </div>
+            </div>
+          
+    </section>
+   <section>
+    <div class="content">
+        </div>
+        <div class="imgBox1">
+            <img src="Gambar4.png" alt="gambar" >
+        </div>
+        <div class="textBox1">
+         <h2>About Us <br> it's  <span>R2Z Design</span> </h2>  <br>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam distinctio dolores molestiae. Itaque magnam nemo adipisci assumenda ipsam! Repellendus nulla molestias repellat excepturi expedita, eveniet corporis libero quis eius obcaecati.</p> 
+         <br>
+         <br>
+         <a href="Beranda.php">Learn more</a>
+        </div>
+       <br>
+   </section>
+   <section>
+    <div class="content">
+        <div class="textBox">
+         <h2>it's not just design <br> it's  <span>R2Z Design</span> </h2>  <br>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam distinctio dolores molestiae. Itaque magnam nemo adipisci assumenda ipsam! Repellendus nulla molestias repellat excepturi expedita, eveniet corporis libero quis eius obcaecati.</p> 
+         <br>
+         <br>
+         <a href="Beranda.php">Learn more</a>
+        </div>
+        <div class="imgBox">
+            <img src="Gambar14.png" alt="gambar" width="500" height="500">
+        </div>
+        </div>
+   </section>
+  <section>
+    <div class="circle"></div>
+    <div class="content">
+    <div class="textBox">
+     <h2>UI Design <br> it's  <span>R2Z Design</span> </h2>  <br>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam distinctio dolores molestiae. Itaque magnam nemo adipisci assumenda ipsam! Repellendus nulla molestias repellat excepturi expedita, eveniet corporis libero quis eius obcaecati.</p> 
+     <br>
+     <br>
+     <a href="Beranda.php">Learn more</a>
+    </div>
+    <div class="imgBox">
+        <img src="Gambar6.png" alt="gambar" width="500" height="500">
+    </div>
+    </div>
+    <br>
+    <ul class="UI">
+        <li><img src="Gambar6.png" onclick="imgslider ('Gambar6') ;changeCircleColor('#017143')" alt=""></li>
+        <li><img src="Gambar9.png"  onclick="imgslider ('Gambar9');changeCircleColor('#eb7495')" alt=""></li>
+        <li><img src="Gambar10.png" onclick="imgslider ('Gambar10');changeCircleColor('#d752b1')" alt=""></li>
+    </ul>
+    <ul class="sci">
+        <li><a href="#"><img src="facebook.png "></a></li>
+        <li><a href="#"><img src="instagram.png " ></a></li>
+        <li><a href="#"><img src="twitter.png "></a></li>
+    </ul>
+</div>
+</div>
+  </section>
+
+
+<script type="text/javascript">
+    function imgslider(anything){
+        document.querySelector(.gambar).src =anything;
+    }
+    function changeCircleColor(color){
+        const circle = document.querySelector('.circle');
+        circle.style.background = color;
+    }
+</script>
+
+<footer>
+    <div class="container">
+      <div class="footer-info">
+        <h3>Tentang Kami</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium odio officia cum dolor unde quia voluptatibus quisquam autem inventore perspiciatis, nostrum quos! Autem molestias dolorum, illum dolores consequatur delectus animi!</p>
+      </div>
+      <div class="footer-info">
+        <h3>Hubungi Kami</h3>
+        <p>Alamat: Jalan Contoh No. 123, Kota, Negara</p>
+        <p>Email: info@example.com</p>
+        <p>Telepon: +123456789</p>
+      </div>
+      <div class="footer-info">
+        <h3>Tautan</h3>
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Produk</a></li>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>

@@ -1,0 +1,63 @@
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* CSS untuk mengatur tampilan logo */
+  .logo {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  /* CSS untuk mengatur tampilan tombol login */
+  .login-button {
+    background-color: blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+/* CSS untuk Beranda */
+body{
+    background: white;  
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(125px,1fr));
+    margin: 0px;
+    align-items: canter;
+    grid-gap: 30px;
+}
+img{
+    object-fit: cover;
+}
+.grid > img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px ;
+}
+.grid > img:hover{
+    transform: scale(1.2);
+}
+/* FOOTER */
+ footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+    
+      
